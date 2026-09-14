@@ -1,0 +1,15 @@
+{
+  "name": "importlearn",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Debashis",
+  "type": "module",
+  "main": "math.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "random-word": "^3.0.0"
+  }
+}
