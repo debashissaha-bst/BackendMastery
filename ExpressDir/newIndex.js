@@ -16,7 +16,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/about', (req, res) => {
-    res.send('You contacted about path');
+    res.send('This is about page');
 });
 
 
@@ -26,4 +26,10 @@ app.post('/', (req, res) => {
 
 app.post('/about', (req, res) => {
     res.send('You send a post request to about');
+});
+
+
+app.get('/search', (req, res) => {
+    let query = req.query.q;
+    res.send(`You searched for ${query}`);
 });
